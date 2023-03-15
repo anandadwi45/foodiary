@@ -96,8 +96,8 @@ a{
     align-items: center;
     justify-content: center;
     align-self: center;
-    max-width: 704px;
-    max-height: 372px;
+    width: 600px;
+    height: 317px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -117,7 +117,8 @@ a{
         align-items: center;
         justify-content: center;
         align-self: center;
-        max-width: 350px;
+        width: 350px;
+        height: 185px;
     }
 }
 
@@ -144,7 +145,8 @@ a{
         align-items: center;
         justify-content: center;
         align-self: center;
-        max-width: 300px;
+        width: 300px;
+        height: 159px;
     }
 }
    
@@ -171,7 +173,8 @@ a{
 }
 
 .logo img{
-    max-height: 64px;
+    height: 64px;
+    width: 218px;
 }
 
 main{
@@ -436,7 +439,7 @@ main{
 
 .feature-point img{
     width: 84px;
-    padding-top: 36px;
+    height: 84px;
     min-height: 0;
 }
 
@@ -517,9 +520,8 @@ main{
 }
 
 .about-right img{
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 332px;
     object-fit: cover;
     object-position: center;
 }
@@ -546,6 +548,10 @@ main{
     }
     .about-left p{
         font-size: 1em;
+    }
+    .about-right img{
+        width: 350px;
+        height: 232px;
     }
 }
 
